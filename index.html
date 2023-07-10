@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/9ea3be3ff0.js" crossorigin="anonymous"></script></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="" class="logo">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+		</nav>
+		<div class="header-text">
+			<p>Front-end Engineer</p>
+			<h1>Hi, I'm <span>Amir Hamzah</span><br> from Indonesian.</h1>
+		</div>
+	</div>
+</div>
+<!-----------------about--------------->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>A person who loves and is passionate about front-end engineering, defined as a creative thinker, highly
+					motivated, good communication, and fast learner, have the motivation to learn new things. I am a front-end engineer who often collaborates with UI/UX and backend</p>
+
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('course')">Course</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Java</li>
+						<li>Bootstrap</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>2018 - 2022</span><br>Admin Gudang</li>
+						<li><span>2016 - 2018</span><br>Kasir di Distributor Hanif Foam</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="course">
+					<ul>
+						<li><span>2023 - Now</span><br>Fullstack Web Developer di <i>Timedoor Academy Pro</i></li>
+						<li><span>2023</span><br>Fullstack Web Developer di <i>Codepolitan</i></li>
+						<li><span>2023</span><br>Dasar-Dasar DevOps di <i>Dicoding</i></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!----------------services------------------>
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Experience</h1>
+		<div class="services-list">
+			<div>
+				<i class="fas fa-code"></i>
+				<h2>Kasir</h2>
+				<p>* Melayani pelanggan secara online ataupun secara langsung<br>
+				* Membuat Laporan harian<br>
+				* Membuat Laporan piutang dan stok barang</p>
+				<a href=""></a>
+			</div>
+			<div>
+				<i class="fas fa-crop-alt"></i>
+				<h2>Admin</h2>
+				<p>* Menginput Laporan Penjualan dan Piutang<br>
+				* Membantu Pengecekan stok barang dan membuat surat jalan<br>
+				* Audit laporan setiap bulan</p>
+				<a href=""></a>
+			</div>
+			<!--<div>
+				<i class="fa-brands fa-app-store"></i>
+				<h2>App Design</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				<a href=""></a>
+			</div>-->
+		</div>
+	</div>
+</div>
+<!--------portfolio--------->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Portfolio</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/portfolio-bootsrap.png">
+				<div class="layer" style="color: aliceblue;">
+					<h3>Social Media App</h3>
+					<p>Membuat Portfolio menggunakan Bootstrap yang sudah responsive. Klik link untuk melihat lebih lengkap nya. Terimakasih!!!</p>
+					<a href="https://amirhamzah04.github.io"><i class="fa-sharp fa-solid fa-link"></i></a>
+				</div>
+			</div>
+			<div class="work" style="color: aliceblue;">
+				<img src="images/work-2.png">
+				<div class="layer">
+					<h3>-------</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eaque corporis officia corrupti assumenda, deleniti eius dolorem ipsum et optio in omnis ea. Fugit nam cum quas libero tempore iste?</p>
+					<a href=""><i class="fa-sharp fa-solid fa-link"></i></a>
+				</div>
+			</div>
+			<div class="work" style="color: aliceblue;">
+				<img src="images/work-3.png">
+				<div class="layer">
+					<h3>-------</h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore tempora nesciunt provident ab velit blanditiis quae deleniti officia possimus! Omnis iusto hic et autem, molestiae quam voluptatibus corrupti aut qui?</p>
+					<a href=""><i class="fa-sharp fa-solid fa-link"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See More</a>
+	</div>	
+</div>
+<!-----------contact------------->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-envelope"></i>amirhamzah804@gmail.com</p>
+				<p><i class="fa-sharp fa-solid fa-square-phone"></i>082334429030</p>
+				<div class="social-icons">
+					<a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+					<a href=""><i class="fa-brands fa-twitter-square"></i></a>
+					<a href=""><i class="fa-brands fa-instagram"></i></a>
+					<a href=""><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+				<a href="images/CV Amir Hamzah #1.pdf" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your Name" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+	<div class="copyright"></div>
+</div>
+
+
+
+<script>
+	
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+
+	}
+
+</script>
+
+<script>
+
+	var sidemenu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+	function closemenu(){
+		sidemenu.style.right = "-250px";
+	}
+</script>
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbyRmubL0iVS39o77zjknm2I7IJlXOwhvrC90qMcl-MTTFxy9HXLR2x1agkyp9FNm8RP/exec'
+	const form = document.forms['submit-to-google-sheet']
+	const msg = document.getElementById("msg")
+  
+	form.addEventListener('submit', e => {
+	  e.preventDefault()
+	  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then(response => {
+			msg.innerHTML = "Message sent successfully"
+			setTimeout(function(){
+				msg.innerHTML = ""
+			},5000)
+			form.reset()
+		})
+		.catch(error => console.error('Error!', error.message))
+	})
+</script>
+</body>
+</html>
